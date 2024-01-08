@@ -11,10 +11,9 @@ spec:
       labels:
         app: krampoline
     spec:
-	containers:
-	- name: krampoline
-	image: krmp-d2hub-idock.9rum.cc/dev-test/repo_687816fc6ae9:latest
-	imagePullPolicy: Always
-	ports:
-	- containerPort: 8080
-		
+      containers:
+        - name: krampoline
+			image: krmp-d2hub-idock.9rum.cc/dev-test/repo_687816fc6ae9:latest
+			imagePullPolicy: Always
+			ports:
+				- containerPort: 8080
